@@ -176,3 +176,7 @@ SELECT COUNT(\*) FROM fact\_sales;    -- Expect 40
 
 \- Fact table supports drill-down and roll-up operations.
 
+
+
+Updated warehouse documentation.
+
