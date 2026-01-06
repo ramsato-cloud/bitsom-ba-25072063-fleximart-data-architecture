@@ -159,4 +159,4 @@ This project strengthened my understanding of relational schema design, ETL work
 2\) Handling nested JSON structures in MongoDB — addressed by restructuring documents and using aggregation pipelines to simplify analysis.
 
 
-
+Final documentation updates.
