@@ -1,3 +1,5 @@
+-- Updated formatting and added comments
+
 # business_queries.md
 
 # Task 1.3 — Business Query Implementation
