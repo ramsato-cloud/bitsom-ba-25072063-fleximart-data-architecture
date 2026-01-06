@@ -1,0 +1,10 @@
+customers_raw: 26
+products_raw: 20
+sales_raw: 10
+customers_duplicates_removed: 1
+products_duplicates_removed: 0
+sales_duplicates_removed: 0
+missing_emails_filled: 5
+missing_prices_filled: 0
+missing_stock_filled: 0
+missing_sales_ids_dropped: 2

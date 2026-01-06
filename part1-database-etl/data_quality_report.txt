@@ -1,0 +1,16 @@
+--- Customers Data Quality ---
+Missing emails:
+   customer_id first_name last_name  ...         phone        city registration_date
+2         C003       Amit     Kumar  ...    9765432109       Delhi        2023-03-10
+6         C007       Ravi     Verma  ...  919876501234        Pune        2023-07-25
+12        C012    Lakshmi  Krishnan  ...    9988001122     Chennai        2023-12-01
+18        C018      Kavya     Reddy  ...    9988112200   Hyderabad        2024-02-18
+23        C023      Rohit    Kapoor  ...    9988112211  Chandigarh        2024-03-20
+
+[5 rows x 7 columns]
+
+Duplicate customer IDs:
+Empty DataFrame
+Columns: [customer_id, first_name, last_name, email, phone, city, registration_date]
+Index: []
+

@@ -1,0 +1,10 @@
+SECTION 2: DESIGN DECISIONS
+
+The chosen granularity for the fact table is the transaction line‑item level, meaning each row represents a single product sold within an order. This level of detail is ideal because it preserves all sales information, supports accurate revenue calculations, and enables flexible analysis across products, customers, and time periods. A higher‑level grain, such as order‑level, would lose product‑specific insights, while a lower‑level grain would add unnecessary complexity.
+
+Surrogate keys are used instead of natural keys to ensure consistency, performance, and independence from source systems. Natural keys like product IDs or customer IDs may change, contain gaps, or be non‑numeric, which can slow down joins. Surrogate keys provide stable, integer‑based identifiers optimized for analytics and slowly changing dimensions.
+
+This design supports drill‑down (year → quarter → month → day) and roll‑up (product → category → brand) operations through well‑structured dimensions. Analysts can easily aggregate or filter data at different levels, enabling powerful OLAP‑style reporting.
+
+------------------------------------------------------------
+

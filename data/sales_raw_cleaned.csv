@@ -1,0 +1,11 @@
+transaction_id,customer_id,product_id,quantity,unit_price,transaction_date,status,subtotal
+T001,C001,P001,1,45999.0,2024-01-15,Completed,45999.0
+T002,C002,P004,2,2999.0,2024-01-16,Completed,5998.0
+T003,C003,P007,1,52999.0,,Completed,52999.0
+T004,Unknown,P002,1,3499.0,2024-01-18,Pending,3499.0
+T005,C005,P009,3,650.0,2024-01-20,Completed,1950.0
+T006,C006,P012,1,12999.0,,Completed,12999.0
+T007,C007,P005,2,1999.0,2024-01-23,Completed,3998.0
+T008,C008,Unknown,1,1299.0,2024-01-25,Completed,1299.0
+T009,C009,P011,1,4599.0,2024-01-28,Cancelled,4599.0
+T010,C010,P006,5,899.0,2024-02-01,Completed,4495.0
