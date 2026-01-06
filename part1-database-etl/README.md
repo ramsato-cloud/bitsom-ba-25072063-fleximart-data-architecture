@@ -133,3 +133,5 @@ All tasks for **Part 1** have been completed successfully:
 - Database schema implemented  
 - Documentation prepared  
 - Business queries validated
+
+Updated documentation for ETL pipeline.
