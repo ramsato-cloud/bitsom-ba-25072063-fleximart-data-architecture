@@ -74,3 +74,5 @@ Part2_NoSQL/
 - Use MongoDB CRUD operations effectively  
 - Evaluate trade-offs between SQL and NoSQL systems  
 
+Updated NoSQL documentation.
+
